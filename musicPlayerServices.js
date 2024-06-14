@@ -1,4 +1,4 @@
-import TrackPlayer, {RepeatMode} from 'react-native-track-player';
+import TrackPlayer, {Event, RepeatMode} from 'react-native-track-player';
 
 import {playListData} from './src/constants';
 

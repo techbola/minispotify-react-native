@@ -27,6 +27,15 @@ const MusicPlayer = () => {
     }
   });
 
+  // useTrackPlayerEvents([Event.PlaybackActiveTrackChanged], async event => {
+  //   switch (event.type) {
+  //     case Event.PlaybackActiveTrackChanged:
+  //       const playingTrack = await TrackPlayer.getTrack(event.lastTrack);
+  //       setTrack(playingTrack);
+  //       break;
+  //   }
+  // });
+
   const renderArtWork = () => {
     return (
       <View style={styles.listArtWrapper}>
